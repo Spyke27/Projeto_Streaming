@@ -16,7 +16,6 @@ export class Netflix{
     }
 
     mostrar(){
-        console.log(`${this.titulo}\nLançamento${this.ano}\n\nSINOPSE:\n${this.sinopse}\n\nDuração:${this.duracao} minutos\n\n${this.genero}\n\nClassificação: ${this.classificacao}anos
-        `)
+        console.log(`${this.titulo}\nLançamento${this.ano}\n\nSINOPSE:\n${this.sinopse}\n\nDuração:${this.duracao} minutos\n\n${this.genero}\n\nClassificação: ${this.classificacao}anos`)
     }
 }
